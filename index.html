@@ -39,16 +39,19 @@
                 data-target="mobile-links">
                 <i class="material-icons">menu</i>
             </a>
-            <ul class=" left hide-on-med-and-down">
+            <ul
+                class=" left hide-on-med-and-down">
                 <img src="" alt="">
                 <li><a class="middle"
-                        href="#">About Me</a></li>
-                <li><a class="middle" href="#">My
+                    href="#contact">Contact</a></li>
+                <li><a class="middle"
+                        href="#aboutme">About Me</a></li>
+                <li><a class="middle" href="#mywork">My
                         Work</a></li>
                 <li><a class="middle"
-                        href="#">GitHub</a></li>
+                        href="#github">GitHub</a></li>
                 <li><a class="middle"
-                        href="#">LinkedIn</a></li>
+                        href="#linkedin">LinkedIn</a></li>
             </ul>
         </div>
     </nav>
@@ -56,69 +59,157 @@
     <!-- nav mobile -->
     <ul class="sidenav hover" id="mobile-links">
         <img src="" alt="">
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">My Work</a></li>
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">LinkedIn</a></li>
+        <li><a class="middle"
+            href="#contact">Contact me</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#mywork">My Work</a></li>
+        <li><a href="#github">GitHub</a></li>
+        <li><a href="#linkedin">LinkedIn</a></li>
     </ul>
 
     <!-- main -->
     <main>
         <div>
             <div class="intro-image">
-                 <img class="responsive-img" src="./kauai-pic.jpg">
+                <img class="responsive-img"
+                    src="./kauai-pic.jpg">
             </div>
-                 <h5 class="brand-logo welcome">Welcome to my portfolio</h5>
+            <h5 class="brand-logo welcome">Welcome
+                to my portfolio</h5>
         </div>
-     <!-- 1st row -->
+        <!-- 0 row -->
         <div class="row">
             <div class="center col s12 m12 l12">
-                <p class="title">About me</p>
+                <p class="title" id="contact">Contact me</p>
             </div>
         </div>
-    <!-- 2nd row -->
+        <!-- 0.5 row -->
+        <div class="row">
+            <div class="center col s12 m12 l12">
+                <ulclass="contact-info">
+                    <li>Name: Omri Ronen</li>
+                    <li>Email: <a class="email-color"href="mailto:omri.ronen4@gmail.com"> omri.ronen4@gmail.com</a></li>
+                    <li>Phone: (949)-910-7806</li>
+                </ul>
+            </div>
+        </div>
+        <!-- 1st row -->
+        <div class="row">
+            <div class="center col s12 m12 l12">
+                <p class="title" id="aboutme">About me</p>
+            </div>
+        </div>
+        <!-- 2nd row -->
         <div class="row">
             <div class="col s12 m12 l12">
-                <p class="about-me-par" > Hello, my name is Omri! I am a full stack web devleoper with a 
-                    deep a passion for science, and a deep connection with nature. I strive to do my best, to continuosly learn, and to build myself as a better person. 
+                <p class="about-me-par"> Hello, my
+                    name is Omri! I am a full
+                    stack web devleoper with a
+                    deep a passion for science,
+                    and a deep connection with
+                    nature. I strive to do my
+                    best, to continuosly learn,
+                    and to build myself as a
+                    better person.
                 </p>
             </div>
         </div>
-    <!-- 3rd row -->
+        <!-- 3rd row -->
         <div class="row">
             <div class="center col s12 m12 l12">
-                <p class="title">My work</p>
+                <p class="title" id="mywork">My work</p>
             </div>
         </div>
-    <!-- 4th row -->
+        <!-- 4th row -->
         <div class="row">
             <div class="col s12 m6 l6">
-                <p class="project-title">Make it | Buy it</p>
+                <p class="project-title">Make it |
+                    Buy it</p>
             </div>
         </div>
-        <div class="card small">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./makeit.png">
+        <!-- 4.5 row -->
+        <div class="row">
+            <div class="col s12 m8 l8">
+                <p class="project-des">An application that helps users choose between making food or buying food.</p>
+            </div>
+        </div>
+        <!-- 5th row make it card -->
+        <div class="row">
+            <div class="card small col s5 m4 l4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./makeit.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Make it page<i class="material-icons right">more_vert</i></span>
+                  <p><i class="material-icons"><a class="link" href="https://iamalittleforest.github.io/project-1/makeit.html"></a>link</i></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                  <p class="info">Enter your ingredients separated by a comma, and find some amazing recipes!</p>
+                </div>
+            </div>
+
+            <div class="card small col s5 m4 l4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./buyit.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Buy it page<i class="material-icons right">more_vert</i></span>
+                  <p><i class="material-icons"><a class="link" href="https://iamalittleforest.github.io/project-1/buyit.html"></a>link</i></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                  <p class="info">Search for restaurants near you by typing in your city!</p>
+                </div>
+            </div>
+
+            
+
+        </div>
+         
+        
+
+
+
+
+
+
+
+        <!-- <div class="card small col s5 m4 l4">
+            <div
+                class="card-image waves-effect waves-block waves-light">
+                <img class="activator"
+                    src="./buyit.png">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">This is a link</a></p>
+                <span
+                    class="card-title activator grey-text text-darken-4">Buy it<i
+                        class="material-icons right">more_vert</i></span>
+                <p><a class="link" href="https://iamalittleforest.github.io/project-1/buyit.html">link</a></p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                <span
+                    class="card-title grey-text text-darken-4">Card
+                    Title<i
+                        class="material-icons right">close</i></span>
+                <p>Here is some more
+                    information about this
+                    product that is only
+                    revealed once clicked on.
+                </p>
             </div>
-          </div>
+        </div> -->
 
-       
-        
+
+
+
     </main>
- 
+
 
     <footer class="page-footer">
         <div class="container">
             <div class="row">
-                
+
                 <div class="col l4 offset-l2 s12">
                     <!-- <h5 class="white-text">Links
                     </h5> -->

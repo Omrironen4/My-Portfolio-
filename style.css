@@ -12,6 +12,7 @@ html {
 nav .brand-logo.right {
     right: 4.5rem;
     padding: 0;
+    color: burlywood;
 }
 @media only screen and (max-width: 600px) {
     nav .brand-logo.right {
@@ -69,6 +70,7 @@ a.middle:hover:before {
     height: fit-content;
     height: -moz-calc(100%);
     padding-bottom: 0px;
+    color: burlywood;
     background-color: #fff;
     z-index: 999;
     overflow-y: auto;
@@ -83,7 +85,7 @@ a.middle:hover:before {
     font-weight: normal;
     font-style: normal;
     font-size: 24px;
-    line-height: 4.5;
+    line-height: 1;
     letter-spacing: normal;
     text-transform: none;
     display: inline-block;
@@ -92,15 +94,24 @@ a.middle:hover:before {
     direction: ltr;
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
+    color: burlywood;
 }
 
-
+.sidenav li>a {
+    color: burlywood;
+    display: block;
+    font-size: 13px;
+    font-weight: 50%;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
 @media only screen and (max-width: 350px) {
     .sidenav li>a {
-        color: rgba(0,0,0,0.87);
+        color: burlywood;
         display: block;
         font-size: 10px;
-        font-weight: 500;
+        font-weight: 50%;
         height: 48px;
         line-height: 48px;
         padding: 0 32px;
@@ -126,15 +137,15 @@ ul {
 }
 
 .title {
-    font-family: 'Lato', sans-serif;
-    font-size: 3.8vh;
-    color: #FFF;
-    text-decoration: underline;
+    font-family: 'Sacramento';
+    font-size: 4.5vh;
+    color: burlywood;
+    text-decoration: blink;
 }
 .project-title {
     font-family: 'Lato', sans-serif;
     font-size: 3.8vh;
-    color: #FFF;
+    color:#FFF;
     /* text-decoration: underline; */
 }
 .about-me-par {
@@ -159,13 +170,13 @@ ul {
     }
 }
 @media only screen and (min-width: 320px){
-    .welcome {
-        position: absolute;
-        top: 13%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 3vh;
-    }
+.welcome {
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.9vh;
+}
 }
 @media only screen and (min-width: 360px){
     .welcome {
@@ -182,9 +193,11 @@ ul {
         top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 2.5vh;
+        font-size: 2.4vh;
     }
 }
+
+
 @media only screen and (min-width: 411px){
     .welcome {
         position: absolute;
@@ -258,14 +271,72 @@ ul {
     height: 100vh;
 } */
 
+.project-des {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.45vh;
+}
 
+/* make it card */
 .card .card-image img {
     display: block;
-    border-radius: 2px 2px 0 0;
+    border-radius: 8px;
     position: relative;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    width: 29%;
+    width: 100%;
 }
+
+.row .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px 0em;
+    min-height: 1px;
+}
+
+@media only screen and (min-width: 601px) {
+.row .col.m4 {
+    width: 33.333333%;
+    margin-left: auto;
+    left: 14px;
+    right: auto;
+}}
+.row .col.s5 {
+    width: 41.6666666667%;
+    margin-left: auto;
+    left: 4%;
+    right: auto;
+}
+
+.card {
+    position: relative;
+    margin: .5rem 4% 1rem 0;
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 10%;
+}
+
+.description {
+    color: black;
+}
+
+.link {
+    background-color: white;
+}
+.info {
+    color: black;
+}
+/* make it card */
+
+.contact-info {
+    font-size: 140%;
+}
+.email-color {
+    color: burlywood;
+}
+
